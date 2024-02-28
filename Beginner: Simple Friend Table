@@ -1,4 +1,4 @@
-Create Table friends (
+CREATE TABLE friends (
   id INTEGER,
   name TEXT,
   birthday DATE
@@ -21,6 +21,6 @@ SET email
 = storm@codeacademy.com
 WHERE id = 1;
 DELETE FROM friends
-WHERE id =1;
+WHERE id = 1;
 SELECT *
 FROM friends;
